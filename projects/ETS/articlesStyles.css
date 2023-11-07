@@ -1,0 +1,45 @@
+.article{
+    background-color: #A6E3E9;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 90%;
+}
+.article > h1{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.article > img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10%;
+    padding: 20px;
+}
+.article-image {
+    float: left;
+    margin-right: 20px; /* Adjust this value as needed */
+    margin-bottom: 20px; /* Add space at the bottom of the image */
+  }
+
+  .container.article {
+    overflow: hidden; /* Clear the float */
+  }
+  p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    font-size: 1.6vh;
+  }
+  .article-subheading{
+    text-align: left;
+    padding: 10px;
+  }
+h1{
+    padding-top: 20px;
+    margin-top: 40px;
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}

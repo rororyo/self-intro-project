@@ -1,0 +1,57 @@
+        
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.news-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.carousel-item.active .news-title {
+  font-size: 36px; 
+}
+h5,p{
+    color: white;
+}
+.carousel-img{
+    width: 100%;
+    height: 50vh;
+    
+}
+.card.shadow-sm>a> img{
+    width: 100%;
+    height: 10vh;
+
+}
+.card.shadow-sm> img{
+    width: 100%;
+    height: 10vh;
+
+}
+.card.shadow-sm> a>svg{
+    width: 100%;
+    height: 10vh;
+
+}
+.card-body{
+  height: 10vh;
+}
+
+.news-grid{
+    padding-top: 100px;
+}
+.carousel-item.selected {
+  background-color: #007BFF;
+}
+
+.carousel-caption.selected h5 {
+  color: #fff; 
+}
+
+.carousel-caption.selected p {
+  color: #fff; 
+}
+.selected {
+  background-color: #007BFF; 
+  color: #fff; 
+}
